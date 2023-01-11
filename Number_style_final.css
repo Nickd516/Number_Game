@@ -1,0 +1,26 @@
+
+.container{
+    margin: auto;
+    border: 5px solid #4d2921;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
+    height: 355px;
+    max-width: fit-content;
+    background-color: dimgrey;
+    color: azure;
+}
+
+input{
+    width: 100 px;
+    margin: 25px auto;
+    text-align: center;
+}
+button {
+    margin: 25px auto auto 5px;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
