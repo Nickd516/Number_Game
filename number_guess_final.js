@@ -12,7 +12,7 @@ while(!valid_input) {
     }
 realnum = (Math.round(maxnum))
 ranNum = (Math.floor(Math.random() * realnum)) + 1;
-console.log(ranNum) //see the number you are trying to guess
+console.log(ranNum) //see the number you are trying to guess using f12
 max.innerHTML = "Guess a number between 1 and " + realnum;
 
 }
