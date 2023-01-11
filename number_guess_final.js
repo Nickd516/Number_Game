@@ -27,7 +27,7 @@ function do_guess() {
         if (numArray.includes(guess) === false)numArray.push(guess);
         message.innerHTML = "You got it!! It took you " + numArray.length + " tries! <br> Your guesses were: " + numArray;
     }
-    else if(guess > ranNum) {
+    else if(guess > ranNum && guess < maxnum) {
         message.innerHTML = "Your number is too high. Try a Lower Number!";
         if (numArray.includes(guess) === false)numArray.push(guess)
         else message.innerHTML = "You have already guessed this number!"
