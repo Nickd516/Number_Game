@@ -1,4 +1,4 @@
-
+//get a max number
 let valid_input = false;
 let max_number, number;
 let max = document.getElementById("guessline");
@@ -18,7 +18,7 @@ max.innerHTML = "Guess a number between 1 and " + realnum;
 }
 
 let numArray = []
-
+//number guess validation
 function do_guess() {
     let guess = Number(document.getElementById("guess").value);
     let message = document.getElementById("message");
